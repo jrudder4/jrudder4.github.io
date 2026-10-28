@@ -165,3 +165,9 @@ footer {
   .content { padding: 0 16px 40px; }
   .topnav { gap: 4px 18px; font-size: .95rem; }
 }
+
+/* ---------- Notes (funding, presentations) & policy list ---------- */
+.note { color: var(--muted); font-size: .85rem; margin-top: 4px !important; }
+.policy { padding-left: 1.1em; margin: 0; }
+.policy li { margin-bottom: 14px; font-size: .95rem; }
+.award { display: block; color: var(--accent); font-size: .88rem; font-weight: 600; }
