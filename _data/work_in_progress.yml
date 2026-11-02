@@ -1,0 +1,68 @@
+# WORK IN PROGRESS
+# ---------------------------------------------------------------------------
+# Each paper starts with "- title:". To add a paper, copy a whole block
+# (from "- title:" down to the blank line) and edit it. Order here = order on
+# the website. Delete any line you don't need (e.g. no abstract, no notes).
+#
+#   title:     paper title, in quotes
+#   coauthors: names in [square brackets], separated by commas.
+#              Add their website once in _data/coauthors.yml and the name
+#              is linked everywhere automatically.
+#   status:    journal / R&R / stage, in quotes. *Italics* like this.
+#   links:     each one needs a label and a url
+#   abstract:  indented text under "abstract: >-" (keep the indentation)
+#   notes:     small grey lines (funding, partners, presentations).
+#              Links in notes: [Text](https://url)
+# ---------------------------------------------------------------------------
+
+- title: "Sample Selection and Climate Resilience after Adopting New Seeds: Evidence from Recruitment at Agrodealers in Guatemala"
+  coauthors: [Agustín Valenzuela Pidal]
+  status: "Presented at AEA Annual Meeting 2025"
+  abstract: >-
+    Improved seeds that target smallholder farmers often exhibit considerable variation in
+    yields once farmers adopt them, due to differences in input choices, soil quality, and
+    weather. The extent of heterogeneity has implications for policies that support new seed
+    development because it is important to learn which seeds have robust yields across a
+    variety of circumstances. Further, when promoting new seeds there is a debate about
+    whether to sell them to farmers via market intermediaries such as agricultural input
+    sellers (agrodealers) or to provide them at a discount to encourage experimentation. I
+    compare yield resilience to weather shocks for two samples of farmers that participated
+    in detailed plot-level harvest using crop cuts (a method that improves precision on
+    yield estimates) in Guatemala. One sample of participants was recruited after they opted
+    into purchasing a hybrid, biofortified maize seed at agrodealer shops and the second was
+    recruited after receiving a seed donation from an NGO.
+  notes:
+    - "In collaboration with [Semilla Nueva](https://semillanueva.org/es/home-espanol/)."
+
+- title: "Willingness-to-Pay to Avoid Tax Exposure among Small Firms in Tanzania"
+  coauthors: [Jovin Lasway]
+  status: "Data collection complete"
+  abstract: >-
+    Small firms in LMICs do not consolidate or grow as often as economic theory predicts.
+    Many small firms are informal businesses that are not often registered with local
+    governments. If firm owners are provided an opportunity to advertise their business,
+    they may refrain from taking actions to increase their visibility if they want to remain
+    under the radar of tax officials. We study the relationship between tax avoidance and
+    growth by offering small firms an opportunity to advertise their contact information to
+    prospective customers around the region. Respondents will be asked to participate in an
+    incentivized willingness-to-pay elicitation to list their phone number in a digital
+    phonebook service. It will include a randomized component with two different primings -
+    50% of respondents will randomly hear the standard priming, and 50% of respondents will
+    hear a second priming script that lets people know that anyone will be able to access
+    the digital phonebook, including tax collecting officials. The goal is to learn whether
+    being primed to think about taxes lowers firms' willingness-to-pay to list their contact
+    information.
+  notes:
+    - "Funding support from the [International Growth Centre (IGC)](https://www.theigc.org/)."
+
+- title: "Mechanistic Explanations and Social Learning: Evidence from Organic Fertilizer in Kenya"
+  coauthors: [Anirudh Sankar, Tomoko Harigaya, Frank Odhiambo, Paola Mallia, Robert Dulin, Abraham Salomon]
+  status: "Pilot ongoing"
+  notes:
+    - "In collaboration with [Precision Development](https://precisiondev.org/) and [Regen Organics](https://www.regenorganics.co/)."
+
+- title: "Adoption and Impacts of a Digital Information Technology: Evidence from Digital Agriculture"
+  coauthors: [Robert Dulin]
+  status: "Pilot ongoing"
+  notes:
+    - "In collaboration with [iSDA](https://www.isda-africa.com/)."

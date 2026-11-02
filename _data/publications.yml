@@ -1,0 +1,86 @@
+# PUBLICATIONS
+# ---------------------------------------------------------------------------
+# Each paper starts with "- title:". To add a paper, copy a whole block
+# (from "- title:" down to the blank line) and edit it. Order here = order on
+# the website. Delete any line you don't need (e.g. no abstract, no notes).
+#
+#   title:     paper title, in quotes
+#   coauthors: names in [square brackets], separated by commas.
+#              Add their website once in _data/coauthors.yml and the name
+#              is linked everywhere automatically.
+#   status:    journal / R&R / stage, in quotes. *Italics* like this.
+#   links:     each one needs a label and a url
+#   abstract:  indented text under "abstract: >-" (keep the indentation)
+#   notes:     small grey lines (funding, partners, presentations).
+#              Links in notes: [Text](https://url)
+# ---------------------------------------------------------------------------
+
+- title: "Policy Design in Experiments with Unknown Interference"
+  coauthors: [Davide Viviano]
+  status: "*Review of Economics and Statistics*, accepted"
+  links:
+    - label: paper
+      url: https://dviviano.github.io/projects/adaptive_exp.pdf
+    - label: registry
+      url: https://www.socialscienceregistry.org/trials/9945
+  abstract: >-
+    This paper studies experimental designs for estimation and inference on policies with
+    spillover effects. Units are organized into a finite number of large clusters and
+    interact in unknown ways within each cluster. First, we introduce a single-wave
+    experiment that, by varying the randomization across cluster pairs, estimates the
+    marginal effect of a change in treatment probabilities, taking spillover effects into
+    account. Using the marginal effect, we propose a test for policy optimality. Second, we
+    design a multiple-wave experiment to estimate welfare-maximizing treatment rules. We
+    provide strong theoretical guarantees and an implementation in a large-scale field
+    experiment.
+  notes:
+    - "In collaboration with [Precision Development](https://precisiondev.org/) and [CERP](https://www.cerp.org.pk/). Funding support from IFAD, Chae Family Economics Research Fund, NBER Social Learning Fund."
+
+- title: "Food Price Variation and Passthrough among Retail Firms in Rural and Urban Tanzania"
+  status: "*Journal of Development Economics* (2025): 103621"
+  links:
+    - label: paper
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0304387825001725
+    - label: working paper
+      url: https://steg.cepr.org/sites/default/files/2023-07/WP070%20RudderDoSmallFirmsPartiallyInsureCustomers.pdf
+  abstract: >-
+    Seasonal price variation is a typical feature of markets in low- and middle-income
+    countries. Retail firms that regularly stock food staples face substantial price
+    variation when purchasing new inventory. How much of this input price variation passes
+    through to output prices for rural customers? I use a panel of wholesale and retail
+    prices at the firm level of 270 urban and rural retail firms in Tanzania to evaluate the
+    transmission of input price shocks to the prices of staple foods. Rural firms smooth
+    both negative and positive input price shocks more than urban firms. Urban firms
+    passthrough nearly 95% of input price increases, while rural firms passthrough only 55%
+    of input price increases. Price adjustments are asymmetric; Rural firms passthrough a
+    higher share of cost savings and a lower share of cost increases. By exploring possible
+    mechanisms, I find evidence that a smaller community size among rural firms is
+    associated with a lower passthrough on negative price shocks. At the same time, distance
+    to markets and competitive pressure matter as well: rural firms with more competitors
+    and further from urban markets have higher passthrough rates, consistent with a
+    competitive market framework with transaction costs. Firms passthrough a smaller share
+    of price increases during the harvest season when agricultural households have more
+    substitutes available.
+  notes:
+    - "Formerly circulated as “Do Small Firms Partially Insure Customers from Price Increases? Evidence from Retail Firms in Tanzania,” STEG Working Paper WP070."
+    - "Presentations: NEUDC, STEG Annual Conference, BREAD Conference, Purdue University."
+
+- title: "Agricultural Input Markets in Sub-Saharan Africa: Theory and Evidence from the (Underappreciated) Supply-Side"
+  coauthors: [Andrew Dillon, Travis Lybbert, Hope Michelson]
+  status: "*Annual Review of Resource Economics* 17 (2025)"
+  links:
+    - label: paper
+      url: https://www.annualreviews.org/content/journals/10.1146/annurev-resource-102324-122108
+  abstract: >-
+    Economists have long studied the diffusion of improved agricultural technologies, often
+    aiming to understand and relax the constraints that discourage their adoption among
+    smallholder farmers. While this effort has documented and explored a long list of
+    on-farm market constraints, the role of agrodealers in agricultural input markets has
+    received far less attention—a critical blind spot. We review the empirical literature on
+    input markets in low-income countries with a focus on Sub-Saharan Africa. We argue that
+    the relative sparsity of this literature reflects limitations in our workhorse models of
+    the household and the firm combined with a supply-side data gap due to infrequent
+    systematic surveys of agrodealer firms. Consequently, we understand too little about the
+    diverse input supply chains that culminate with agrodealers—large and small—marketing
+    key inputs to farmers. We synthesize current findings and articulate a research agenda
+    centered on agricultural input markets, including implications for research methods.

@@ -1,0 +1,29 @@
+<div class="paper">
+  <p class="title">{{ p.title }}</p>
+  {%- if p.coauthors and p.coauthors.size > 0 %}
+  <p class="authors">with {% for name in p.coauthors -%}
+    {%- assign url = site.data.coauthors[name] -%}
+    {%- if url -%}<a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>{%- else -%}{{ name }}{%- endif -%}
+    {%- if forloop.rindex == 2 -%}{%- if forloop.length > 2 -%},{%- endif %} and {% elsif forloop.last == false -%}, {% endif -%}
+  {%- endfor %}</p>
+  {%- endif %}
+  {%- if p.status %}
+  <p class="status">{{ p.status | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  {%- endif %}
+  {%- if p.abstract or p.links %}
+  <div class="links">
+    {%- if p.abstract %}
+    <button class="abs-toggle" type="button">Abstract</button>
+    {%- endif %}
+    {%- for l in p.links %}
+    <a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+  {%- if p.abstract %}
+  <p class="abstract" hidden>{{ p.abstract }}</p>
+  {%- endif %}
+  {%- for n in p.notes %}
+  <p class="note">{{ n | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  {%- endfor %}
+</div>

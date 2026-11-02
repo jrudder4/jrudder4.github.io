@@ -1,0 +1,178 @@
+# WORKING PAPERS
+# ---------------------------------------------------------------------------
+# Each paper starts with "- title:". To add a paper, copy a whole block
+# (from "- title:" down to the blank line) and edit it. Order here = order on
+# the website. Delete any line you don't need (e.g. no abstract, no notes).
+#
+#   title:     paper title, in quotes
+#   coauthors: names in [square brackets], separated by commas.
+#              Add their website once in _data/coauthors.yml and the name
+#              is linked everywhere automatically.
+#   status:    journal / R&R / stage, in quotes. *Italics* like this.
+#   links:     each one needs a label and a url
+#   abstract:  indented text under "abstract: >-" (keep the indentation)
+#   notes:     small grey lines (funding, partners, presentations).
+#              Links in notes: [Text](https://url)
+# ---------------------------------------------------------------------------
+
+- title: "Learning from Weather Forecasts and Short-Run Adaptation: Evidence from an At-Scale Experiment"
+  coauthors: [Davide Viviano]
+  links:
+    - label: paper
+      url: https://jrudder4.github.io/papers/Weather_RudderViviano.pdf
+    - label: registry
+      url: https://www.socialscienceregistry.org/trials/9945
+  abstract: >-
+    Weather forecasts are an example of a public good that is often distributed at-scale
+    without charging users. This feature can make measuring the benefits of weather forecast
+    distribution challenging because information spillovers are likely; people like to talk
+    about the weather and weather information is often available from a variety of sources.
+    Despite the ubiquity of weather information, small-scale farmers often lack access to
+    high-quality weather forecasts that are tailored to help them make production decisions.
+    We implement a randomized experiment with 400,000 cotton growers in Pakistan and vary
+    the share of farmers treated with large clusters (tehsils). We show that treated and
+    untreated farmers in high-saturation clusters update their farming behavior in line with
+    forecasts. Directly treated farmers in high saturation tehsils are 37-67% more likely to
+    avoid rain when irrigating and applying fertilizer and pesticides. Control farmers in
+    highly saturated tehsils are 22-46% more likely to avoid rain compared to controls in
+    low-saturation tehsils. For heat avoidance, results follow a similar pattern but are
+    statistically weaker. Direct information sharing is a plausible pathway - control
+    farmers in high saturation areas were 8% more likely than control farmers in low
+    saturation areas to report discussing weather information with peers. At the end of the
+    season, estimates for yields are positive but imprecise and there is evidence that input
+    expenditure increased.
+  notes:
+    - "In collaboration with [Precision Development](https://precisiondev.org/) and [CERP](https://www.cerp.org.pk/). Funding support from IFAD, Chae Family Economics Research Fund, NBER Social Learning Fund."
+    - "Presentations: University of Illinois ACES, University of Chicago AI in Weather Workshop, Cornell University, Development Innovation Lab at the University of Chicago, University of Washington, UC Davis, IPA/Global Poverty Research Lab Annual Researcher Gathering, Advances in Field Experiments, MeasureDev Conference at the World Bank."
+
+- title: "Search Costs and Relational Contracting"
+  coauthors: [Brian Dillon]
+  links:
+    - label: paper
+      url: https://drive.google.com/file/d/17LnJKnSDZ7qVtz2LbFmjhHzUDt41N2gT/view
+    - label: registry
+      url: https://www.socialscienceregistry.org/trials/4430
+  abstract: >-
+    We experimentally investigate the link between search costs and relational contracts for
+    rural firms in Tanzania. Our analysis takes advantage of random assignment to a digital
+    telephone directory that lowers the cost of finding contact information. One group of
+    treated firms was made especially visible upstream—to suppliers in nearby cities—and
+    another group of treated firms was made especially visible downstream—to customers.
+    Relative to a control group, firms in both treatment groups increase relational
+    contracting with their suppliers and decrease it with their customers. Yet, there is no
+    strong evidence that the number of new customers or suppliers increases. This pattern
+    suggests that the increased exposure causes firms to update their valuation of
+    relational contracts and respond by negotiating better terms with suppliers and
+    customers.
+  notes:
+    - "Funding support from the Cornell Institute for Social Science and UC Davis Jastro-Shields."
+    - "Presentations: PEDL Conference on Firms in Low-Income Countries, NEUDC, AAEA, UC Davis, CSAE Annual Conference, Toulouse School of Economics, Workshop on the Economics of Digitization."
+
+- title: "Search Costs, Mobile Phones, and Agricultural Investment"
+  coauthors: [Jenny Aker, Brian Dillon, Hosea Mpogole]
+  links:
+    - label: paper
+      url: https://drive.google.com/file/d/1f6rG3xkaU7jyV0fFx34x9ve1gMizbpUL/view
+  abstract: >-
+    Mobile phones have spread rapidly across sub-Saharan Africa, but without complementary
+    services to help users find new contacts at low cost. We report the results of a
+    multi-year randomized controlled trial in the Kagera region of Tanzania, with 3,348
+    farming households across 120 villages. The randomized intervention was a Yellow
+    Pages–style directory with information about local businesses, delivered in both paper
+    and digital form in separate treatment arms. Directory access raised agricultural
+    investment by roughly 10% and increased remote ordering of inputs, with positive effects
+    on yields and sale prices for some crops. These effects were concentrated in the paper
+    treatment arm and, notably, were larger and more precisely estimated for women-headed
+    households. The results suggest that the modality of information delivery shapes who
+    benefits as services move online, and that directory services help counteract the
+    inherently regressive returns to mobile phones.
+
+- title: "How Mechanistic Explanations Reshape Learning and Behavior: Evidence from a Fertilizer Choice Experiment in Eastern Uganda"
+  coauthors: [Anirudh Sankar, Robert Dulin, Ben Davies, Vesall Nourani, Abraham Salomon, Godfrey Taulya]
+  links:
+    - label: paper
+      url: https://drive.google.com/file/d/11ZYBbbUYx-K0eJmqU4_jaIJIe7F8DdM0/view
+  abstract: >-
+    Mechanistic explanations—descriptions of a system through the causal interactions of its
+    parts—play a key role in human cognition and scientific progress. Despite their
+    importance, we lack systematic evidence on how mechanistic explanations affect learning
+    and behavior in economic settings. We evaluate the causal impact of including
+    mechanistic explanations in an information intervention: public demonstrations of
+    fertilizer use for smallholder tomato farmers in Eastern Uganda. In all demonstrations,
+    extension officers showcased the impact of a recommended fertilizer recipe. In the
+    treatment group, officers also explained the mechanisms underlying the recipe’s
+    effects—introducing the language of macronutrients and the causal processes linking
+    nutrients, soil features, and plant growth. We collect detailed data on beliefs and
+    behaviors from 797 farmers in a lab-in-the-field experiment. Treated farmers are better
+    able to generalize from mechanisms to update beliefs about the returns to fertilizers,
+    substitute and arbitrage among fertilizers based on nutrient content, and exhibit better
+    understanding of the principles of nutrient and soil science. In an incentivized
+    fertilizer application task, they achieved 9% higher simulated profits by selecting more
+    agronomically sound fertilizer recipes, without increasing costs.
+  notes:
+    - "In collaboration with [Agriworks](https://www.agriworksug.com/) and researchers at the International Institute of Tropical Agriculture. Funding support from the [International Growth Centre (IGC)](https://www.theigc.org/), Stanford King Center, Weiss Fund for Research in Development Economics."
+
+- title: "Do Farmers Want Their Children to Be Farmers?"
+  coauthors: [Brian Dillon, Hosea Mpogole, Christone Nyondo]
+  links:
+    - label: paper
+      url: https://drive.google.com/file/d/1pkggH3k70h4gc3djZafK7oOEGeWhG1nm/view
+  abstract: >-
+    Economic development involves workers exiting agriculture, and prior evidence
+    establishes that youth in Africa do not aspire to farm. Yet, when youth exit the sector,
+    families risk losing traditional knowledge, land access, and food security, raising the
+    question of how current farmers envision their children’s futures. We conducted a
+    discrete choice experiment with 3,247 Tanzanian farmers, in which respondents chose
+    between possible future occupations for their children. Respondents overwhelmingly
+    prefer all non-farm occupations to agriculture. Waged work is preferred to
+    self-employment, regardless of whether it is physically demanding. Even fully insuring
+    agricultural income does not lead respondents to choose farming over alternative careers
+    for their children.
+
+- title: "Economic, Cultural and Taste-Based Constraints to the Scaling of Climate-Resilient Biofortified Maize among Diverse Smallholder Populations in Guatemala"
+  coauthors: [Karen Macours, Paola Mallia]
+  links:
+    - label: paper
+      url: https://publications.iadb.org/en/economic-cultural-and-taste-based-constraints-scaling-climate-resilient-biofortified-maize-among
+    - label: DIV project
+      url: https://divportal.usaid.gov/s/project/a0g3d000000cQ4FAAU/testing-improved-biofortified-maize-seeds-and-subsidies
+  abstract: >-
+    To address the combined challenges of hidden hunger and climate vulnerability, crop
+    breeding efforts over the last decades have focused on releasing crop varieties with
+    resilient traits and higher nutrient content. Assuring that those newly released
+    varieties reach the types of farmers that are most likely to benefit from these enhanced
+    seed traits ultimately will determine the return to those breeding efforts. This paper
+    analyzes the effectiveness of selected demand and supply side interventions that aimed
+    to increase the reach of biofortified maize seeds among diverse smallholder populations
+    in Guatemala. We introduce experimental variation in demand-side subsidies and
+    information designed to encourage farmers to try the biofortified climate-resilient
+    seeds, and supply-side subsidies for agrodealers to promote the seeds to a wider
+    customer base. Subsidizing agrodealers can leverage market incentives, while demand-side
+    interventions are more traditional policy tools. We study the effect of these scaling
+    approaches on short-term uptake, longer-term willingness-to-pay and sustained adoption
+    by different types of farmers.
+  notes:
+    - "In collaboration with [Semilla Nueva](https://semillanueva.org/es/home-espanol/). Funding support from USAID-DIV, IDB Group’s Gender and Diversity Knowledge Initiative (GDLab), and EUR project ANR-17-EURE-0001."
+
+- title: "Firm Networks, Credit Access, and Resilience to Shocks Among Small Firms in Tanzania"
+  coauthors: [Parth Chawla, Daniel Putman]
+  links:
+    - label: paper
+      url: https://parthchawla.com/docs/Firm_Networks.pdf
+    - label: research summary
+      url: https://pedl.cepr.org/content/supply-chain-networks-and-diffusion-shocks-rural-markets-0
+  abstract: >-
+    Tightly linked firm networks may enable firms to engage in risk-sharing and recover more
+    easily from shocks, particularly idiosyncratic shocks. However, if covariate shocks
+    occur (such as seasonal price and demand shocks), suppliers may reduce the number of
+    benefits provided to downstream firms in their supply chain network and increase the
+    likelihood that firms exit the market. This might occur up and down a supply chain
+    between buyers and sellers linked by transactions or across sectors with firms that are
+    linked as neighbours. Thus this study will address the research question: How do firm
+    networks affect individual firms' ability to cope with shocks and changes in
+    competition? We are collecting a novel dataset by conducting a high-frequency bi-monthly
+    survey to monitor entry, exit, shocks, input and output prices, inventory choices and
+    investment, and credit provision. The survey will involve 900 firms in 30 communities
+    drawn from a firm census of 9,800 firms located throughout Kagera, Tanzania.
+  notes:
+    - "Funding support from Private Enterprise Development in Low-Income Countries (PEDL)."

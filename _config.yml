@@ -1,0 +1,25 @@
+# ===========================================================================
+# YOUR DETAILS — edit these and the sidebar updates automatically.
+# Leave a link blank ("") to hide its icon.
+# ===========================================================================
+name: Jess Rudder
+position: Assistant Professor<br>Applied Economics
+institution: Oregon State University
+email: jessica.rudder [at] oregonstate [dot] edu
+photo: assets/img/rudder.jpg
+cv: assets/pdf/Rudder_CV.pdf
+
+google_scholar: ""
+github: ""
+linkedin: ""
+
+description: >-
+  Jess Rudder, Assistant Professor of Applied Economics at Oregon State
+  University. Development economics, industrial organization, agriculture,
+  and applied econometrics.
+
+# The "About" text is in _includes/about.md
+
+# ---- technical settings (no need to change) ----
+markdown: kramdown
+exclude: [README.md]
